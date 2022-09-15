@@ -9,10 +9,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  # app_ui_kit:
-  #   git:
-  #     url: https://github.com/pedramRoosta/simple_ui_kit.git
-  #     ref: master
+  bahag_ui_kit:
+    git:
+      url: https://github.com/pedramRoosta/sample_ui_kit.git
+      ref: master
 
 
 dev_dependencies:
@@ -21,3 +21,5 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
